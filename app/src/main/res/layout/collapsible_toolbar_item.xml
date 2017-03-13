@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="20dp"
+    android:orientation="vertical"
+    android:gravity="left|bottom"
+    android:paddingBottom="20dp">
+
+    <TextView android:id="@+id/tv_today_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="21°C"
+        android:textColor="#FFFFFFFF"/>
+
+    <TextView android:id="@+id/tv_today_climate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Windy"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFFFF"/>
+
+    <TextView android:id="@+id/tv_today_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="5dp"
+        android:text="Today"
+        android:textColor="#FFFFFFFF"/>
+</LinearLayout>
